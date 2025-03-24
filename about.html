@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./assets/logo.svg" alt="Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="georgia.html">Discover Georgia</a></li>
+            <li><a id="active" href="about.html">About us</a></li>
+            <li><a href="faq.html">F.A.Q</a></li>
+        </ul>
+        <div class="contact">
+            <div><img src="./assets/phone.svg" alt="Phone image"> +995 592 02 05 02</div>
+            <div><img src="./assets/mail.svg" alt="Mail image"> contact@universaltravel.ge</div>
+        </div>
+    </header>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <div class="slide-overlay"></div>
+          <img src="./assets/slide1.jpg" style="width:100%">
+          <div class="slideText">Georgia <br><p>The jewel of the caucasus</p></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <div class="slide-overlay"></div>
+          <img src="./assets/slide2.jpg" style="width:100%">
+          <div class="slideText">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <div class="slide-overlay"></div>
+          <img src="./assets/slide3.jpg" style="width:100%">
+          <div class="slideText">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+    </div>
+    <br>
+        
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <!-- First Section -->
+    <section id="firstS">
+      <h1>About us</h1>
+      <div class="aboutSection">
+        <img src="./assets/logowithnotxt.svg" alt="Logo">
+        <p>Welcome to Universal Travel, your gateway to exploring the breathtaking beauty of Georgia! We specialize in crafting unforgettable travel experiences, guiding you through the country’s rich history, stunning landscapes, and vibrant culture.
+          From the majestic peaks of the Caucasus Mountains to the charming streets of Tbilisi, the ancient caves of Uplistsikhe to the serene vineyards of Kakheti, we ensure every traveler experiences the best of Georgia. 
+          Whether you're seeking adventure, relaxation, or cultural immersion, our expert guides and tailored itineraries make your journey seamless and extraordinary.
+          Join us and embark on a journey where every moment is an adventure! 🌍✈️</p>
+      </div>
+    </section>
+    <section id="secondS">
+      <h1>Company members</h1>
+      <div class="productCards">
+        <div>
+          <img src="./assets/member1.jpg" alt="Member">
+          <button style="border: none;"><img src="./assets/employee.svg" alt="arrow">Nika Akhvlediani</button>
+        </div>
+        <div>
+          <img src="./assets/member2.jpg" alt="Member">
+          <button style="border: none;"><img src="./assets/employee.svg" alt="arrow">Giorgi Chorgoleishvili</button>
+        </div>
+        <div>
+          <img src="./assets/member3.jpg" alt="Member">
+          <button style="border: none;"><img src="./assets/employee.svg" alt="arrow">Levan Urushadze</button>
+        </div>
+        <div>
+          <img src="./assets/member4.jpg" alt="Member">
+          <button style="border: none;"><img src="./assets/employee.svg" alt="arrow">Vato Gugushvili</button>
+        </div>
+      </div><br>
+    </section>
+    <section id="thirdS">
+      <h1>Partners</h1>
+      <div class="partners">
+        <img src="./assets/partner1.png" alt="Partner #1">
+        <img src="./assets/partner2.png" alt="Partner #2">
+        <img src="./assets/partner3.png" alt="Partner #3">
+      </div>
+    </section>
+    <section id="fourthS">
+      <h1>Simple Statistics - Why us?</h1>
+      <div class="statistics">
+        <div>
+          <img src="./assets/mood.svg" alt="Mood emoji">
+          <h2>500+</h2>
+          <p>Happy clients</p>
+        </div>
+        <div>
+          <img src="./assets/bus.svg" alt="Mood emoji">
+          <h2>100+</h2>
+          <p>Tours offered</p>
+        </div>
+        <div>
+          <img src="./assets/diplomat.svg" alt="Mood emoji">
+          <h2>10+</h2>
+          <p>Years of experience</p>
+        </div>
+        <div>
+          <img src="./assets/award.svg" alt="Mood emoji">
+          <h2>5</h2>
+          <p>Awards won</p>
+        </div>
+      </div>
+      <div class="whyUs">
+        <div>
+          <img src="./assets/face.svg" alt="Face">
+          <h2>Expert guides</h2>
+          <p>Our guides are knowledgeable and passionate about sharing their expertise</p>
+        </div>
+        <div>
+          <img src="./assets/percent.svg" alt="Face">
+          <h2>Best Prices</h2>
+          <p>We offer competitive pricing without compromising on quality</p>
+        </div>
+        <div>
+          <img src="./assets/support.svg" alt="Face">
+          <h2>Expert guides</h2>
+          <p>Our dedicated support team is available around the clock to assist you</p>
+        </div>
+      </div>
+    </section>
+    <section id="fivethS">
+      <h1>Send us your questions</h1>
+      <div class="form">
+        <div>
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name">
+          <input type="number" placeholder="Mobile Number">
+          <input type="email" placeholder="Email">
+      </div>
+      <div class="formSecond">
+          <textarea name="yourText" id="yourText" cols="45" rows="7" placeholder="Your Text"></textarea>
+        </div>
+      </div>
+      <button class="successB">Send</button>
+      <h1>No questions? Book your tour now</h1>
+      <button class="successG">Book a tour</button>
+    </section>
+
+    <footer>
+      <div>
+        <h3>About us</h3>
+        <ul>
+          <li><a href="">Universal Travel</a></li>
+          <li><a href="">Partners</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Suggest</a></li>
+          <li><a href="">Review</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>About Georgia</h3>
+        <ul>
+          <li><a href="">History</a></li>
+          <li><a href="">Architecture</a></li>
+          <li><a href="">Culture & Tradition</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Tours</h3>
+        <ul>
+          <li><a href="">Cultural & Pilgrim</a></li>
+          <li><a href="">Trekking & Camping</a></li>
+          <li><a href="">Wine & Culinary</a></li>
+          <li><a href="">Adventure & Extreme</a></li>
+          <li><a href="">Bird Watching</a></li>
+          <li><a href="">Healing Tours</a></li>
+          <li><a href="">Mice Tourism</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="">Tsodniskari Street, No. 3, Tbilisi</a></li>
+          <li><a href="">+995 592 02 05 02</a></li>
+          <li><a href="">contact@universaltravel.ge</a></li>
+          <li><a href="">universaltravel.ge</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="endFooter">
+      <p>© 2024 Universal Travel. All rights reserved</p>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+</html>

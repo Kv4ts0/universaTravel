@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./assets/logo.svg" alt="Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a id="active" href="tours.html">Tours</a></li>
+            <li><a href="georgia.html">Discover Georgia</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="faq.html">F.A.Q</a></li>
+        </ul>
+        <div class="contact">
+            <div><img src="./assets/phone.svg" alt="Phone image"> +995 592 02 05 02</div>
+            <div><img src="./assets/mail.svg" alt="Mail image"> contact@universaltravel.ge</div>
+        </div>
+    </header>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <div class="slide-overlay"></div>
+          <img src="./assets/slide1.jpg" style="width:100%">
+          <div class="slideText">Georgia <br><p>The jewel of the caucasus</p></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <div class="slide-overlay"></div>
+          <img src="./assets/slide2.jpg" style="width:100%">
+          <div class="slideText">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <div class="slide-overlay"></div>
+          <img src="./assets/slide3.jpg" style="width:100%">
+          <div class="slideText">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+    </div>
+    <br>
+        
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <!-- First Section -->
+    <section id="firstS">
+      <h1>Tours</h1>
+      <div class="search">
+        <input type="search" placeholder="Search tours by their name or description">
+        <div class="categories">
+          <input type="submit" id="activeButton" value="Cultural & Pilgrim">
+          <input type="submit" value="Trekking & Camping">
+          <input type="submit" value="Wine & Culinary">
+          <input type="submit" value="Adventure & Extreme">
+          <input type="submit" value="Bird Watching">
+          <input type="submit" value="Healing Tours">
+          <input type="submit" value="Mice Tourism">
+        </div>
+      </div>
+
+    </section>
+    <br>
+    <section id="secondS">
+      <div class="productCards">
+        <div>
+          <img src="./assets/batumi.jpg" alt="Batumi">
+          <button><img src="./assets/location.svg" alt="arrow">Batumi</button>
+        </div>
+        <div>
+          <img src="./assets/kutaisi.jpg" alt="Kutaisi">
+          <button><img src="./assets/location.svg" alt="arrow">Kutaisi</button>
+        </div>
+        <div>
+          <img src="./assets/svaneti.jpg" alt="Svaneti">
+          <button><img src="./assets/location.svg" alt="arrow">Svaneti</button>
+        </div>
+        <div>
+          <img src="./assets/tbilisi.jpg" alt="Tbilisi">
+          <button><img src="./assets/location.svg" alt="arrow">Tbilisi</button>
+        </div>
+      </div><br>
+      <div class="productCards">
+        <div>
+          <img src="./assets/martvili.jpg" alt="Martvili">
+          <button><img src="./assets/location.svg" alt="arrow">Martvili</button>
+        </div>
+        <div>
+          <img src="./assets/map11.jpg" alt="Mtskheta">
+          <button><img src="./assets/location.svg" alt="arrow">Mtskheta</button>
+        </div>
+        <div>
+          <img src="./assets/gori.jpg" alt="Gori">
+          <button><img src="./assets/location.svg" alt="arrow">Gori</button>
+        </div>
+        <div>
+          <img src="./assets/borjomi.jpg" alt="Borjomi">
+          <button><img src="./assets/location.svg" alt="arrow">Borjomi</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <h3>About us</h3>
+        <ul>
+          <li><a href="">Universal Travel</a></li>
+          <li><a href="">Partners</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Suggest</a></li>
+          <li><a href="">Review</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>About Georgia</h3>
+        <ul>
+          <li><a href="">History</a></li>
+          <li><a href="">Architecture</a></li>
+          <li><a href="">Culture & Tradition</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Tours</h3>
+        <ul>
+          <li><a href="">Cultural & Pilgrim</a></li>
+          <li><a href="">Trekking & Camping</a></li>
+          <li><a href="">Wine & Culinary</a></li>
+          <li><a href="">Adventure & Extreme</a></li>
+          <li><a href="">Bird Watching</a></li>
+          <li><a href="">Healing Tours</a></li>
+          <li><a href="">Mice Tourism</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="">Tsodniskari Street, No. 3, Tbilisi</a></li>
+          <li><a href="">+995 592 02 05 02</a></li>
+          <li><a href="">contact@universaltravel.ge</a></li>
+          <li><a href="">universaltravel.ge</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="endFooter">
+      <p>© 2024 Universal Travel. All rights reserved</p>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+</html>
