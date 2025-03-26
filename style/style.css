@@ -642,8 +642,17 @@ header .contact a{
     gap: 7vh;
   }
 }
-
+@media only screen and (max-width: 1240px) {
+  #faqS{
+    width: auto;
+  }
+}
 @media only screen and (max-width: 1100px) {
+  .aboutSection{
+    width: auto;
+    flex-direction: column;
+    padding: 0 5vh;
+  }
   .search{
     width: 80%;
   }
@@ -653,6 +662,9 @@ header .contact a{
 }
 
 @media only screen and (max-width: 870px){
+  .partners{
+    flex-direction: column;
+  }
   .successB, .successG{
     width: 70%;
   }
