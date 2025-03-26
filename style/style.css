@@ -50,6 +50,10 @@ header .contact div{
     display: flex;
     gap: 1vh;
 }
+header .contact a{
+  text-decoration: none;
+  color: #0A2B45;
+}
 /* End of the Header */
 
 /* Body */
@@ -450,6 +454,39 @@ header .contact div{
 #activeButton{
   background-color: #0A2B45;
   color: white;
+}
+#faqS{
+  width: 1200px;
+  margin: 0 auto;
+  font-family: DarkerGrotesqueRegular;
+  font-size: 22px;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  font-size: 22px;
+  font-family: DarkerGrotesqueRegular;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #0A2B45;
+  color: white;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
