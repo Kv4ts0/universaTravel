@@ -105,3 +105,30 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const openMenu = document.querySelector(".openMenu");
+  const closeMenu = document.querySelector(".closeMenu");
+  const mainMenu = document.querySelector(".mainMenu");
+
+  if (openMenu && closeMenu && mainMenu) {
+      // Open menu when clicking the burger icon
+      openMenu.addEventListener("click", () => {
+          mainMenu.classList.add("active");
+      });
+
+      // Close menu when clicking the "X" button
+      closeMenu.addEventListener("click", () => {
+          mainMenu.classList.remove("active");
+      });
+
+      // Close menu when clicking outside of it
+      document.addEventListener("click", (e) => {
+          if (!mainMenu.contains(e.target) && !openMenu.contains(e.target)) {
+              mainMenu.classList.remove("active");
+          }
+      });
+  } else {
+      console.error("Menu elements not found!");
+  }
+});
